@@ -31,7 +31,9 @@ const Navbar = () => {
                 <Image src={Logo} alt='' width="130" height="69" />
                 <li className={styles.listItem}>Events</li>
                 <li className={styles.listItem}>Blog</li>
+                <Link href="/Contact" passHref>
                 <li className={styles.listItem}>Contact</li>
+                </Link>
             </ul>
         </div>
         <Link href= '/cart' passHref>

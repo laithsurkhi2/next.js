@@ -2,17 +2,18 @@ import React from 'react'
 import styles from "../styles/Footer.module.css" 
 import Background from '../pages/img/bg.png'
 import Image from 'next/image'
+import footer from '../pages/img/footer.webp'
 const Footer = () => {
   return (
     <div className={styles.container} >
       <div className={styles.item}>
-        <Image src={Background} layout="fill" alt="" />
+        <Image src={footer} layout="fill" alt="" />
       </div>
 
       <div className={styles.item}>
         <div className={styles.card}>
           <h2 className={styles.motto}>
-            OH YES, WE DID, THE LAMA PIZZA, WELL BAKED SLICE OF PIZZA
+          OH YES, WE HAVE THE BEST PIZZA IN TOWN.
           </h2>
         </div>
         <div className={styles.card}>
@@ -42,11 +43,11 @@ const Footer = () => {
           <h1 className={styles.title}>WORKING HOURS</h1>
           <p className={styles.text}>
             MONDAY UNTIL FRIDAY
-            <br /> 9:00 – 22:00
+            <br /> 9:00 am – 12:00 am
           </p>
           <p className={styles.text}>
             SATURDAY - SUNDAY
-            <br /> 12:00 – 24:00
+            <br /> 12:00 pm – 12:00 am
           </p>
         </div>
       </div>

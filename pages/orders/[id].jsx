@@ -44,12 +44,12 @@ const Order = ({ order }) => {
         </div>
         <div className={styles.row}>
           <div className={statusClass(0)}>
-            <Image src="/img/paid.png" width={30} height={30} alt="" />
+            <Image src={Paid} width={30} height={30} alt="" />
             <span>Payment</span>
             <div className={styles.checkedIcon}>
               <Image
                 className={styles.checkedIcon}
-                src="/img/checked.png"
+                src={Checked}
                 width={20}
                 height={20}
                 alt=""
@@ -57,12 +57,12 @@ const Order = ({ order }) => {
             </div>
           </div>
           <div className={statusClass(1)}>
-            <Image src="/img/bake.png" width={30} height={30} alt="" />
+            <Image src={bake} width={30} height={30} alt="" />
             <span>Preparing</span>
             <div className={styles.checkedIcon}>
               <Image
                 className={styles.checkedIcon}
-                src="/img/checked.png"
+                src={Checked}
                 width={20}
                 height={20}
                 alt=""
@@ -70,12 +70,12 @@ const Order = ({ order }) => {
             </div>
           </div>
           <div className={statusClass(2)}>
-            <Image src="/img/bike.png" width={30} height={30} alt="" />
+            <Image src={Bike} width={30} height={30} alt="" />
             <span>On the way</span>
             <div className={styles.checkedIcon}>
               <Image
                 className={styles.checkedIcon}
-                src="/img/checked.png"
+                src={Checked}
                 width={20}
                 height={20}
                 alt=""
@@ -83,12 +83,12 @@ const Order = ({ order }) => {
             </div>
           </div>
           <div className={statusClass(3)}>
-            <Image src="/img/delivered.png" width={30} height={30} alt="" />
+            <Image src={Delivered} width={30} height={30} alt="" />
             <span>Delivered</span>
             <div className={styles.checkedIcon}>
               <Image
                 className={styles.checkedIcon}
-                src="/img/checked.png"
+                src={Checked}
                 width={20}
                 height={20}
                 alt=""
