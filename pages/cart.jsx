@@ -140,7 +140,7 @@ const Cart = () => {
               </span>
             </td>
             <td>
-              <span className={styles.price}>R{product.price}</span>
+              <span className={styles.price}>${product.price}</span>
             </td>
             <td>
               <span className={styles.quantity}>{product.quantity}</span>
