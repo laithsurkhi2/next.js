@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import styles from '../../styles/Product.module.css';
 import Image from 'next/image';
-import PizzaImg from '../img/pizza.png';
+
 import SizeImg from '../img/size.png'
 import axios from 'axios';
 import { UseDispatch, useDispatch } from 'react-redux';
@@ -42,7 +42,7 @@ const Product = ({pizza}) => {
     <div className={styles.container}>
       <div className={styles.left}>
       <div className={styles.imgContainer}>
-          <Image src={pizza.img} objectFit='contain' layout='fill' alt="" />
+          <Image src={pizza.img} objectFit='contain' layout='fill' alt="Pizza" />
       </div>  
       </div>
 
